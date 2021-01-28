@@ -1,2 +1,2 @@
 # gallaxy-battle
-射击游戏
+打飞机游戏
