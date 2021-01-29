@@ -1,0 +1,92 @@
+using BDFramework.UFlux;
+using BDFramework.UFlux.Reducer;
+using BDFramework.UFlux.Store;
+using BDFramework.UFlux.View.Props;
+using BDFramework.UI;
+using ILRuntime.Runtime;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace ClickFish.UI
+{
+    public enum WinMsg
+    {
+        testMsg = 0,
+    }
+  @foreach(var item in @Model.SubWins){
+    <a>public enum SubWindow
+    {
+        //testSubWindows001
+    }</a>
+  }
+    
+
+
+    <a>[UI((int)  WinEnum.Win_</a>@Model.Name <a>, "Windows/Window_</a>@Model.Name<a>")]</a>
+   <a> public class Window_</a>@Model.Name <a>: AWindow</a>
+    {
+       <a> public Window_</a>@Model.Name<a>(string path) : base(path)</a>
+        {
+        }
+
+        <a>public Window_</a>@Model.Name<a>(Transform transform) : base(transform)
+        {
+        }</a>
+
+       #region SubWins  
+        @foreach(var item in @Model.SubWins){
+               <a> [TransformPath("@item.Path")] </a>
+               <a> private Button @item.Name; </a>
+        }
+        #endregion
+        #region Buttons 
+        @foreach(var item in @Model.Btns){
+               <a> [TransformPath("@item.Path")] </a>
+               <a> private Button @item.Name; </a>
+        }
+        #endregion
+        #region Text  
+        @foreach(var item in @Model.Txts){
+               <a> [TransformPath("@item.Path")] </a>
+               <a> private Text @item.Name; </a>
+        }
+        #endregion
+        #region Sprites 
+        @foreach(var item in @Model.Sps){
+               <a> [TransformPath("@item.Path")] </a>
+               <a> private Sprite @item.Name; </a>
+        }
+        #endregion
+        public override void Init()
+        {
+            base.Init();
+
+            @foreach(var item in @Model.SubWins){
+                
+            //注册子窗口
+           
+                <a> 
+                 var trans = this.Transform.Find("SubWindow");
+                var subWin = new SubWindow_Demo004(trans);
+                RegisterSubWindow(SubWindow.testSubWindows001.GetHashCode(),subWin);</a>
+            }
+           
+
+             @foreach(var item in @Model.Btns){
+               <a>   @item.Name</a> <a>.onClick.AddListener(() =>
+            {
+               // TODO: 添加方法
+            }); </a>
+              
+        }
+           
+        }
+
+
+        [UIMessage((int) WinMsg.testMsg)]
+        private void TestMessage(UIMessageData msg)
+        {
+           // Content.text = "父窗口收到消息:" + msg.GetData<string>();
+        }
+    }
+}

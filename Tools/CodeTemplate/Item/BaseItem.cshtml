@@ -1,0 +1,19 @@
+using System.Collections.Generic;
+using BDFramework.UFlux.View.Props;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace ClickFish
+{
+    public class Props_@Model.Name: PropsBase
+    {
+        
+        @foreach(var item in @Model.Childrens){
+            <a>
+             [TransformPath("@item.Path")]
+            [ComponentValueBind(typeof(Text),nameof(Text.text))]
+            public string @item.Name;
+        </a>
+        }
+    }
+}
