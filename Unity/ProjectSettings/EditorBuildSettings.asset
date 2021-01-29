@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Galaxy Battle/Scenes/Logo.unity
+    guid: 974a7ceab4128af4a9024d40389bc9d5
+  - enabled: 1
+    path: Assets/Galaxy Battle/Scenes/Menu.unity
+    guid: c339aa10d3bca0c4986b986517d1d593
+  - enabled: 1
+    path: Assets/Galaxy Battle/Scenes/Play.unity
+    guid: bcbd7f11edd928a479b1682322704aa2
   m_configObjects: {}

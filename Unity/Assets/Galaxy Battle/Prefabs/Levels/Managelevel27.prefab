@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1222247592463557791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222247592463557785}
+  - component: {fileID: 1222247592463557790}
+  m_Layer: 0
+  m_Name: Managelevel27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1222247592463557785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222247592463557791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.474651, y: -2.8581805, z: 0.094872735}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1222247592463557790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222247592463557791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a4c6f158c74684587623d765c71fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: 0
+  Enemybox:
+  - {fileID: 1918955351092011428, guid: e0764d75d86ea3748ab584d2057ed407, type: 3}
+  - {fileID: 8401049041643279556, guid: 83cf52f50d4102c459a0fc3eab0b7310, type: 3}
+  - {fileID: 1578825480147245996, guid: 0768bbd1e296c944b8b2926020c700a2, type: 3}
+  - {fileID: 8272534948794641315, guid: 945ba32788204444da537fbb0fe36003, type: 3}
+  - {fileID: 2472474488641507910, guid: ec239d9f37eadc749a3cfcbf14600bc2, type: 3}
+  - {fileID: 5781297258560610139, guid: bd33a7132a7f37941804cdf793b9a4e6, type: 3}
+  - {fileID: 6859172015767739876, guid: 84d25f4b1bcb07243a398d49dbe957c6, type: 3}
+  - {fileID: 7269823856841706080, guid: 6d4b888738f4ef040bc42d755872d293, type: 3}
+  - {fileID: 2875187471442558997, guid: 8acf2a15f3ebde346a5afbe181449190, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Leftenemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Rightenemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Upenemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Bonus:
+  - {fileID: 2061720620406719412, guid: 7aba2f4dfb9816d4291ef7c0a81a200a, type: 3}
+  - {fileID: 6815200635927741363, guid: a51abece7145cb54f94322f9cefb409b, type: 3}
+  - {fileID: 8812822203195000209, guid: 593460a9db23b0f4f820db8c366668d5, type: 3}
+  - {fileID: 8200844587211065154, guid: 11280455c0cc31343a2dcffa301378af, type: 3}
+  chance: 50

@@ -885,6 +885,34 @@
     <Compile Include="Assets\Code\Game@hotfix\demo_EventManager\Event_demo1.cs" />
     <Compile Include="Assets\Code\Game@hotfix\demo_EventManager\Event_demo2.cs" />
     <Compile Include="Assets\Code\Game@hotfix\demo_EventManager\interface\IDemoEvent.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Audiopitch.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Barlife.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Buttons.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\CameraFit.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Destroygameabjects.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Enemy.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Enemy2.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Enemybox.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Giant1.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Giant2.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Giant3.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Guidedbullet.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Levelsbutton.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Manage.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Managelevel.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Menu.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Move.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\MoveEnemy1.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\MoveEnemy2.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Movebullets.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Movedown.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Moveenemy3.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Moveleftandright.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\PlanePlayer.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Rocket.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Rotation.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Starbullet.cs" />
+    <Compile Include="Assets\Galaxy Battle\Scripte\Startgame.cs" />
     <None Include="Assets\Resource\Shaders\builtin_shaders-2019.3\DefaultResourcesExtra\Unlit\Unlit-Color.shader" />
     <None Include="Assets\Resource\Shaders\builtin_shaders-2019.3\DefaultResourcesExtra\VideoDecodeML.shader" />
     <None Include="Assets\Resource\Shaders\builtin_shaders-2019.3\DefaultResourcesExtra\Particle AddMultiply.shader" />
@@ -1336,121 +1364,121 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/3rdPlugins/Dotween/DemiLib/Core/DemiLib.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/3rdPlugins/Dotween/DemiLib/Core/DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTween43">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween43.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween46.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween46.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween50.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/3rdPlugins/Dotween/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="Debug.log">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Debug/Debug.log.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Debug/Debug.log.dll</HintPath>
     </Reference>
     <Reference Include="Excel">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Excel/Excel.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Excel/Excel.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Excel/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Excel/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/Microsoft.CodeAnalysis.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/Microsoft.CodeAnalysis.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Buffers.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Immutable">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Collections.Immutable.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Collections.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.Common">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Data.Common.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Data.Common.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.StackTrace">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Diagnostics.StackTrace.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Diagnostics.StackTrace.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.Tracing">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Diagnostics.Tracing.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Diagnostics.Tracing.dll</HintPath>
     </Reference>
     <Reference Include="System.Globalization.Extensions">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Globalization.Extensions.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Globalization.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.IO.Compression.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Memory.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Net.Http.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Net.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Sockets">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Net.Sockets.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Net.Sockets.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Numerics.Vectors.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Metadata">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Reflection.Metadata.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Reflection.Metadata.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Primitives">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Runtime.Serialization.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.SecureString">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Security.SecureString.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Security.SecureString.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encoding.CodePages">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Text.Encoding.CodePages.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Text.Encoding.CodePages.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Overlapped">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Threading.Overlapped.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Threading.Overlapped.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.XPath.XDocument">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Xml.XPath.XDocument.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Code/BDFramework/Plugins/Roslyn/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.ClipperLib">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/AstarPathfindingProject/Clipper/Pathfinding.ClipperLib.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/AstarPathfindingProject/Clipper/Pathfinding.ClipperLib.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/AstarPathfindingProject/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/AstarPathfindingProject/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Poly2Tri">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/AstarPathfindingProject/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/AstarPathfindingProject/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -1807,52 +1835,52 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.CacheServer">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/WorkspaceGit/Unity/etframework/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/WorkspaceGit/gallaxy-battle/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
